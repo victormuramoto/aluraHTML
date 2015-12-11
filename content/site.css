@@ -1,3 +1,4 @@
+/* general css*/
 body{
     font-family: "Crimson Text","Times New Roman",serif;
     background-color:#F2FFFC; 
@@ -7,13 +8,39 @@ h1,h2{
     font-family: "Open Sans Condensed","Arial",sans-serif;
 }
 
-h1{
+
+p{
+    text-align: justify;
+}
+
+/* main css*/
+main h1{
     color:#FAFFFA;
     background-color: #851944;
     text-align:center;
 }
 
+main blockquote,cite{
+    background-color: #D9E5E3;
+    
+}
 
-p{
-    text-align: justify;
+main a{
+    color:#0000FF;
+
+}
+
+/* navagecao css*/
+nav{
+    background-color: #3C1D3D;  
+}
+
+nav h1,a{
+      color:#F2FFFC;
+}
+
+/* footer css*/
+footer{
+    background-color: #000000;
+    color:#F2FFFC;
 }
