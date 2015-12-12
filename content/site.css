@@ -26,18 +26,20 @@ main blockquote,cite{
 }
 
 main a{
-    color:#0000FF;
+    color:#851944;
 
 }
 
 /* navagecao css*/
-nav{
+aside{
     background-color: #3C1D3D;  
+    color:#F2FFFC;
 }
 
-nav h1,a{
-      color:#F2FFFC;
-}
+aside h1,a{
+      color:inherit;
+      font-family: "Open Sans Condensed","Arial","sans-serif";
+  }
 
 /* footer css*/
 footer{
