@@ -2,6 +2,7 @@
 body{
     font-family: "Crimson Text","Times New Roman",serif;
     background-color:#F2FFFC; 
+    line-height: 30px;
 }
 
 h1,h2{
@@ -13,17 +14,58 @@ p{
     text-align: justify;
 }
 
+/* estilo para tringulo angulo reto e gravata borboleta
+div {
+    border-left: 30px solid red;
+    border-right: 30px solid red;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    width: 0;
+}
+
+h3{
+    border-left: 30px solid red;
+    border-right: 30px solid transparent;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid red;
+    width: 0;
+}
+*/
+
+
+
+
+
 /* main css*/
+
+
 main h1{
     color:#FAFFFA;
     background-color: #851944;
     text-align:center;
+    padding: 25px;
+    border-bottom: 10px #000000 solid;
 }
 
-main blockquote,cite{
-    background-color: #D9E5E3;
-    
+main div{
+    width: 720px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+main blockquote{
+    padding: 20px;
+    border: 10px  solid #C2CCCA;
+    border-bottom-color: #333;
+    border-right-color: #FFF;
+    background-color: #D9E5E3; 
+    width: 250px;
+}
+
+main cite{
+    background-color: #D9E5E3;   
+}
+
 
 main a{
     color:#851944;
@@ -34,6 +76,8 @@ main a{
 aside{
     background-color: #3C1D3D;  
     color:#F2FFFC;
+    padding: 20px;
+    text-align: center;
 }
 
 aside h1,a{
@@ -41,8 +85,16 @@ aside h1,a{
       font-family: "Open Sans Condensed","Arial","sans-serif";
   }
 
+aside div{
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* footer css*/
 footer{
     background-color: #000000;
     color:#F2FFFC;
+    padding:20px;
 }
+
