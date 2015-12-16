@@ -112,7 +112,11 @@ aside h1,a{
   }
 
 aside li{
-    display: none;
+    display: block;
+}
+
+.icones-sociais li{
+    display: inline-block;
 }
 
 aside div{
@@ -121,10 +125,29 @@ aside div{
     margin-right: auto;
 }
 
+
+/* article */
+
+article{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;   
+}
+
 /* footer css*/
-footer{
+
+.main-footer{
     background-color: #000000;
     color:#F2FFFC;
     padding:20px;
+}
+
+.article-footer{
+    
+}
+
+.article-footer a{
+    color:#851944;
+    
 }
 
