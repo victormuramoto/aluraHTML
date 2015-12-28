@@ -132,13 +132,31 @@ article{
 }
 
 
-
-
 /*Classes Css*/
 
 .icones-sociais li{
     display: inline-block;
 }
+
+.icones-sociais a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+}
+
+.github{
+    background-image: url(github.png);
+}
+
+.twitter{
+    background-image: url(twitter.png);
+}
+
+.linkedin{
+    background-image: url(linkedin.png);
+}
+
 
 .article-footer a{
     color:#851944;
@@ -164,6 +182,7 @@ article{
 
 .navegacao-menus li{
     display: block;
+    text-transform: lowercase;
 }
 
 
@@ -189,6 +208,7 @@ article{
     padding: 25px;
     border-bottom: 10px #000000 solid;
     font-size: 60px;
+    text-transform: uppercase;
 }
 
 .citacao{
