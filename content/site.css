@@ -49,10 +49,18 @@ h3{
     padding: 25px;
     border-bottom: 10px #000000 solid;
     font-size: 60px;
+
 }*/
+
+main {
+    width: 80%;
+    float: left;
+}
+
 
 main h2{
     font-size: 30px;
+    clear: both;
 }
 
 main strong{
@@ -92,6 +100,7 @@ main a{
     color:#851944;
 
 }
+
 
 /* navagecao css*/
 
@@ -163,11 +172,21 @@ article{
     
 }
 
+.minha-foto ,.navegacao-site{
+    float:right;
+    width:20%;
+    border-bottom:10px #000000 solid;
+    border-left: 10px #000000 solid;
+    width:20%;
+    box-sizing: border-box;
+}
+
 .navegacao-site{
     background-color: #3C1D3D;  
     color:#F2FFFC;
     padding: 20px;
-    text-align: center
+    text-align: center;
+    clear: right;
 }
 
 .navegacao-site h1{
@@ -188,7 +207,6 @@ article{
 
 
 .navegacao-site div{
-    width: 720px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -198,6 +216,7 @@ article{
     background-color: #000000;
     color:#F2FFFC;
     padding:20px;
+    clear:both;
 }
 
 .titulo-principal{
@@ -205,10 +224,18 @@ article{
     color:#FAFFFA;
     background-color: #851944;
     text-align:center;
-    padding: 25px;
+    padding: 45px;
     border-bottom: 10px #000000 solid;
     font-size: 60px;
     text-transform: uppercase;
+}
+
+.fiat{
+    float:right;
+}
+
+.petrobras{
+    float:left;
 }
 
 .citacao{
@@ -228,10 +255,10 @@ article{
 }
 
 .conteudo{
-    width: 720px;
+    width: 820px;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 30px;
     
 }
