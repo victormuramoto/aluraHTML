@@ -172,13 +172,14 @@ article{
     
 }
 
-.minha-foto ,.navegacao-site{
+.minha-foto {
     float:right;
-    width:20%;
     border-bottom:10px #000000 solid;
     border-left: 10px #000000 solid;
-    width:20%;
     box-sizing: border-box;
+    position: absolute;
+    top:0;
+    right: 0;
 }
 
 .navegacao-site{
@@ -187,6 +188,13 @@ article{
     padding: 20px;
     text-align: center;
     clear: right;
+    float:right;
+    border-bottom:10px #000000 solid;
+    border-left: 10px #000000 solid;
+    width:20%;
+    box-sizing: border-box;
+    position:relative;
+    top:310px;
 }
 
 .navegacao-site h1{
@@ -217,6 +225,9 @@ article{
     color:#F2FFFC;
     padding:20px;
     clear:both;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
 
 .titulo-principal{
@@ -259,7 +270,8 @@ article{
     margin-right: auto;
     margin-left: auto;
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
+    
     
 }
 
