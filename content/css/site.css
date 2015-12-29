@@ -36,21 +36,8 @@ h3{
 */
 
 
+/* main css */
 
-
-
-/* main css*/
-
-
-/*main h1{
-    color:#FAFFFA;
-    background-color: #851944;
-    text-align:center;
-    padding: 25px;
-    border-bottom: 10px #000000 solid;
-    font-size: 60px;
-
-}*/
 
 main {
     width: 80%;
@@ -71,29 +58,7 @@ main em{
     font-style: italic;
 }
 
-/*main div{
-    width: 720px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}*/
 
-/*
-main blockquote{
-    padding: 20px;
-    border: 10px  solid #C2CCCA;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    background-color: #D9E5E3; 
-    width: 250px;
-}
-
-main cite{
-    background-color: #D9E5E3;   
-}*/
 
 
 main a{
@@ -102,43 +67,7 @@ main a{
 }
 
 
-/* navagecao css*/
 
-/*
-aside{
-    background-color: #3C1D3D;  
-    color:#F2FFFC;
-    padding: 20px;
-    text-align: center;
-}
-
-
-aside a{
-      color:inherit;
-      font-family: "Open Sans Condensed","Arial","sans-serif";
-
-  }
-
-aside li{
-    display: block;
-}
-
-
-
-aside div{
-    width: 720px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-*/
-/* article */
-
-article{
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ccc;   
-}
 
 
 /*Classes Css*/
@@ -155,22 +84,18 @@ article{
 }
 
 .github{
-    background-image: url(github.png);
+    background-image: url(../img/github.png);
 }
 
 .twitter{
-    background-image: url(twitter.png);
+    background-image: url(../img/twitter.png);
 }
 
 .linkedin{
-    background-image: url(linkedin.png);
+    background-image: url(../img/linkedin.png);
 }
 
 
-.article-footer a{
-    color:#851944;
-    
-}
 
 .minha-foto {
     float:right;
@@ -241,29 +166,7 @@ article{
     text-transform: uppercase;
 }
 
-.fiat{
-    float:right;
-}
 
-.petrobras{
-    float:left;
-}
-
-.citacao{
-    padding: 20px;
-    border: 10px  solid #C2CCCA;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    background-color: #D9E5E3; 
-    width: 250px;
-    
-}
-
-.citacao cite{
-    background-color: #D9E5E3;   
-}
 
 .conteudo{
     width: 820px;
@@ -275,16 +178,5 @@ article{
     
 }
 
-.leia-mais{
-    font-size: 20px;
-    margin: 10px    0px;
-    padding: 10px 10px;
-    text-align: center;
-    background-color:#3C1D3D;
-    font-family: "Open Sans Condensed","Arial",sans-serif;
-    display: block;
-    color:#FAFFFA;  
-}
 
 
-}

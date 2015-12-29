@@ -1,0 +1,23 @@
+.fiat{
+    float:right;
+}
+
+.petrobras{
+    float:left;
+}
+
+.citacao{
+    padding: 20px;
+    border: 10px  solid #C2CCCA;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #D9E5E3; 
+    width: 250px;
+    
+}
+
+.citacao cite{
+    background-color: #D9E5E3;   
+}
